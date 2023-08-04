@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Chart{% endblock %}
+
+{% block content %}          
+        <h2>Stock Info for {{ stock_info.longName }} ({{ stock_info.symbol }})</h2>
+        <p>Industry: {{ stock_info.industry }}</p>
+        <p>Market Cap: {{ stock_info.marketCap }}</p>
+{% endblock %}
